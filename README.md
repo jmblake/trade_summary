@@ -18,7 +18,7 @@ The input file represents a very simplified stream of trades on an exchange.
 Each row represents a trade.  If you don't know what that means don't worry.  
 The data can be thought of as a time series of values in columns: 
 
-<TimeStamp>,<Symbol>,<Quantity>,<Price>
+`<TimeStamp>,<Symbol>,<Quantity>,<Price>`
 
 Although the provided input file is small, you should consider what would happen 
 if the files became much larger.
@@ -57,7 +57,7 @@ Find the following on a per symbol basis:
 Output:
 Your solution should produce a file called 'output.csv'.
 file should be a comma separate file with this format:
-<symbol>,<MaxTimeGap>,<Volume>,<WeightedAveragePrice>,<MaxPrice>
+`<symbol>,<MaxTimeGap>,<Volume>,<WeightedAveragePrice>,<MaxPrice>`
 
 The output should be sorted by symbol ascending ('aaa' should be first).
 
