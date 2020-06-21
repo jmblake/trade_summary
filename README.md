@@ -37,7 +37,8 @@ Safe Assumptions:
 - Price - Price is always > 0.
 
 Example: here is a row for a trade of 10 shares of aaa stock at a price of 12 
-1234567,aaa,10,12
+
+`1234567,aaa,10,12`
 
 Problem:
 Find the following on a per symbol basis:
@@ -63,19 +64,27 @@ file should be a comma separate file with this format:
 The output should be sorted by symbol ascending ('aaa' should be first).
 
 Sample Input:
-57124702,aaa,13,1136
-57124702,aac,20,477
-57125641,aab,31,907
-57127350,aab,29,724
-57127783,aac,21,638
-57130489,aaa,18,1222
-57131654,aaa,9,1077
-57133453,aab,9,756
+
+`57124702,aaa,13,1136`
+
+`57124702,aac,20,477`
+
+`57125641,aab,31,907`
+
+`57127350,aab,29,724`
+
+`57127783,aac,21,638`
+
+`57130489,aaa,18,1222`
+
+`57131654,aaa,9,1077`
+
+`57133453,aab,9,756`
 
 Sample Output:
-aaa,5787,40,1161,1222
-aab,6103,69,810,907
-aac,3081,41,559,638
 
-Send your source code and output.csv back for evaluation when complete.
-Include the amount of time you spent working on the solution.
+`aaa,5787,40,1161,1222`
+
+`aab,6103,69,810,907`
+
+`aac,3081,41,559,638`
