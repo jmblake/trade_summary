@@ -57,6 +57,7 @@ Find the following on a per symbol basis:
 Output:
 Your solution should produce a file called 'output.csv'.
 file should be a comma separate file with this format:
+
 `<symbol>,<MaxTimeGap>,<Volume>,<WeightedAveragePrice>,<MaxPrice>`
 
 The output should be sorted by symbol ascending ('aaa' should be first).
