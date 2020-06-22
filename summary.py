@@ -98,8 +98,7 @@ class Summary:
         df.sort_index(inplace=True)
 
         # We add another column, which gives the average price for each symbol.
-        df['av_price'] = df.apply(lambda row: row.total_price // row.volume, 
-                                  axis=1)
+        df['av_price'] = df.apply(lambda row: row.total_price // row.volume, axis=1)
 
         # Now, finally we remove some columns, and swap the position of the 
         # 'max_price' and 'av_price' columns.
@@ -128,8 +127,8 @@ class Summary:
 
 
 def main():
-    in_path = 'input.csv'
-    out_path = 'output.csv'
+    in_path = './data/input.csv'
+    out_path = './data/output.csv'
 
     Summary(in_path, out_path).run()
 
